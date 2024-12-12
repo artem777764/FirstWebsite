@@ -1,0 +1,369 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li {
+    font-size: 18px;
+    list-style-type: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3
+{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+td
+{
+    padding: 4px;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #891010;
+}
+
+a:visited {
+    color: #891010;
+}
+
+a:hover {
+    color: #f48989;
+}
+
+a:active {
+    color: #e82727;
+}
+
+input[type="checkbox"]
+{
+    accent-color: #d93e3e;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #d93e3e;
+}
+
+.logo {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #660000;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #660000;
+}
+
+.logoPicture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.logoText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 10px;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+    border-bottom: 2px solid #660000;
+    background-color: #d55454;
+}
+
+.navigation li {
+    font-weight: 900;
+}
+
+.navigationList {
+    display: flex;
+    margin: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: space-around;
+}
+
+aside {
+    border-right: 2px solid #660000;
+    background-color: #e26a6a;
+}
+
+aside li {
+    font-weight: 900;
+}
+
+.textStyleAside {
+    color: #660000;
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 125px 1fr;
+    border-bottom: 2px solid #660000;
+    background-color: #f48989;
+    flex-direction: row;
+}
+
+footer img {
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d93e3e;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footerText {
+    text-align: center;
+    flex: 1;
+}
+
+.footerLogo {
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #660000;
+    border-spacing: 5px 0px;
+    width: 100%;
+    padding: 4px;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+iframe {
+    margin: 10px;
+}
+
+.addInfo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:space-evenly;
+}
+
+.pdf-container {
+    display: flex;
+    margin: 5px;
+    width: 780px;
+    height: 600px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.content {
+    margin: 10px;
+}
+
+table td:nth-child(1){
+    text-align: center;
+}
+
+table td:nth-child(3){
+    text-align: center;
+}
+
+table td:nth-child(4){
+    text-align: center;
+}
+
+table th {
+    background: #d93e3e;
+}
+
+table tr:nth-child(odd) {
+    background: #e26a6a;
+}
+
+table tr:nth-child(even) {
+    background: #d55454;
+}
+
+table tr:hover {
+    background-color: #e82727;
+}
+
+.border {
+    border: 2px solid #660000;
+}
+
+#vk {
+    border-radius: 11px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    background-color: #d55454;
+    border: 2px solid #660000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.table-container {
+    width: 97%;
+}
+
+button
+{
+    align-items: center;
+    font-weight: 900;
+    border: 2px solid #660000;
+    margin: 10px;
+    padding: 6px;
+    background-color: #e26a6a;
+    font-size: 18px;
+    border-radius: 9px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #d93e3e;
+}
+
+button:active {
+    cursor: pointer;
+    background: #e82727;
+}
+
+.pdf-container {
+    position: relative;
+    width: 99%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.pdf-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.map-container {
+    position: relative;
+    width: 97%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+}
+
+object {
+    width: 100%;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+@media (max-width: 1199px) {
+    aside {
+        display: none;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .table-container {
+        width: 99%;
+        overflow-x: auto;
+    }
+    table {
+        margin: 10px;
+    }
+    .addInfo {
+        flex-direction: column;
+    }
+
+    .pdf-container {
+        position: relative;
+        width: 99%;
+        height: 400px;
+        overflow: hidden;
+    }
+    
+    .pdf-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .map-container {
+        position: relative;
+        width: 99%;
+        height: 400px;
+        overflow: hidden;
+    }
+    
+    .map-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}

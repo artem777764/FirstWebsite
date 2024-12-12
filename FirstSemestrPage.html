@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Просто Лучшая Страница</title>
+    <link rel="shortcut icon" href="logo.jpg" />
+    <link rel="stylesheet" href="FirstSemestrStyle.css" />
+  </head>
+  <body>
+    <header class="sticky">
+      <div class="logo">
+        <div class="logoPicture">
+          <h4>Logo</h4>
+          <img src="logo.jpg" alt="Logus" />
+        </div>
+        <div class="logoText">
+          <h4>Группа ЭФБО-01-23</h4>
+          <h4>Дмитриев Артём Викторович</h4>
+        </div>
+      </div>
+      <nav class="navigation">
+        <ul class="navigationList">
+          <a href="MainPage.html"><li>Главная</li></a>
+          <li class="dropdown">
+            <a href="#">Семестр</a>
+            <ul class="dropdown-content">
+              <a href="FirstSemestrPage.html"><li>Первый Семестр</li></a>
+              <a href="#"><li>Второй Семестр</li></a>
+            </ul>
+          </li>
+          <a href="ServicePage.html"><li>Услуги</li></a>
+          <a href="#"><li>Авторизация</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <aside>
+        <ul class="textStyleAside">
+          <li>Навигация по странице</li>
+          <a href="#lecture"><li>Лекции</li></a>
+          <a href="#seminar"><li>Практики</li></a>
+          <a href="#"><li>Адрес Вуза</li></a>
+          <a href="#"><li>Рабочая программа</li></a>
+        </ul>
+      </aside>
+      <div class="content">
+        <div><h3 class="welcome">Первый семестр</h3></div>
+        <div id="lecture"><h3>Лекции</h3></div>
+        <div class="table-container">
+          <table>
+            <thead class="left">
+              <th>Номер</th>
+              <th>Тема</th>
+              <th>Посещение</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Основы языка HTML</td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Углублённое изучение HTML</td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Основы работы с CSS</td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Адаптивная вёрстка. Flexbox и Grid Layout</td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Bootstrap - работа с фреймворком</td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Основы языка JavaScript</td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Работа с DOM и событиями в JavaScript</td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Введение в GitHub и GitHub Pages</td>
+                <td><input type="checkbox" /></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="seminar"><h3>Практики</h3></div>
+        <div class="table-container">
+          <table>
+            <thead>
+              <th>Номер</th>
+              <th>Тема</th>
+              <th>Посещение</th>
+              <th>Выполнение</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Основы языка HTML</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Формы и кнопки в HTML</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Таблицы и интерактивные элементы HTML</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Основы работы CSS</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Работа с классами в CSS</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Работа с сеткой и разметкой в HTML</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Адаптивная вёрстка</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Bootstrap</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Основы языка JavaScript</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Базовые задачи на JS</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>DOM-структура приложений и работа с объектами в языке JS</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>Встраивание скриптов</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>Отладка сценариев</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>Анимации и работа с ними</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>Github</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>Защита проекта</td>
+                <td><input type="checkbox" /></td>
+                <td><input type="checkbox" /></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+        
+
+        <script>
+          /*
+          const cells = document.querySelectorAll('td');
+          cells.forEach(cell => {
+              const hoverText = `CONCORD`;
+              cell.addEventListener('mouseenter', function() {
+                  cell.textContent = hoverText;
+                  cell.style.fontSize = '4em';
+              });
+          });
+          */
+        </script>
+        
+
+        <h3>
+          Дополнительно
+        </h3>
+        <div class="addInfo">
+          <div class="pdf-container">
+            <object data="Формулы.pdf" type="application/pdf" class="border">
+              <p>Ваш браузер не поддерживает просмотр PDF. <a href="Формулы.pdf">Загрузите PDF файл.</a></p>
+            </object>
+          </div>
+          <div class="map-container">
+            <iframe class="border"
+              src="https://yandex.ru/map-widget/v1/?ll=80.121621%2C53.245744&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzEwNTk4MBJ20KDQvtGB0YHQuNGPLCDQkNC70YLQsNC50YHQutC40Lkg0LrRgNCw0LksINCh0YPQtdGC0YHQutC40Lkg0YDQsNC50L7QvSwg0L_QvtGB0ZHQu9C-0Log0KHQuNCx0LjRgNGB0LrQuNC5INCT0LjQs9Cw0L3RgiIKDc6nn0IVBPNUQg%2C%2C&z=9.76"
+              width="560"
+              height="595"
+              frameborder="1"
+              allowfullscreen="true"
+              style="position: relative"
+            ></iframe>
+          </div>
+        </div>
+        <button id="button1">
+          Наверх
+        </button>
+      </div>
+    </main>
+    <footer>
+      <h5 class="footerText">Наш сайт ЛУЧШИЙ и это НЕ обсуждается</h5>
+      <div class="footerLogo">
+        <a href="https://web.telegram.org/"
+          ><img src="telegram.png" alt="tg"
+        /></a>
+        <a href="https://vk.com/feed"><img src="vk.png" alt="vk" id="vk" /></a>
+      </div>
+    </footer>
+
+    <script src="FirstSemestrScript.js"></script>
+  </body>
+</html>
