@@ -250,7 +250,16 @@ table tr:hover {
     display: block;
 }
 
-.table-container {
+#LectureTable {
+    width: 97%;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    display: none;
+    transition: opacity 1s ease, height 1s ease;
+}
+
+#SemestrTable {
     width: 97%;
 }
 

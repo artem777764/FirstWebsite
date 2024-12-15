@@ -97,7 +97,20 @@ button:active {
 
 .doneText {
     text-indent: 0px;
+    transition: color 0.3s ease;
 }
+
+@keyframes colorChange {
+    0% {
+      color: green;
+    }
+    50% {
+      color: yellow;
+    }
+    100% {
+      color: green;
+    }
+  }
 
 .textStyleAside {
     color: #660000;

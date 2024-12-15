@@ -8,6 +8,7 @@ const orderText = document.getElementById("orderText");
 const orderType = document.getElementById("type")
 const modal = document.getElementById("modal");
 const done = document.getElementById("done");
+const doneText = document.querySelector(".doneText p");
 
 function openModal(text, textType) {
     orderText.textContent = text;
@@ -62,3 +63,7 @@ function submitForm() {
 
     printData(formData);
 }
+
+button4.addEventListener("click", () => {
+    doneText.style.animation = "colorChange 2s infinite";
+});
